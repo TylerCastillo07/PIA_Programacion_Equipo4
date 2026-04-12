@@ -18,7 +18,7 @@ def generar_avance_0():
         with open("respuesta_cruda.json", "w", encoding="utf-8") as f:
             json.dump(data, f, indent=4, ensure_ascii=False)
             
-        print("Archivo 'respuesta_cruda.json' generado con éxito.")
+        print("Archivo 'respuesta.json' generado con éxito.")
     else:
         print("Error en la conexión.")  
 
