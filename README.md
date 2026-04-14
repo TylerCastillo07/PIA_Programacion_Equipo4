@@ -2,7 +2,7 @@
 **Equipo 4 - Integrantes:**
 * Tyler Gabriel Castillo Lozano - 2163447 - **Programador**
 * [Nombre Compañero] - [Matrícula] - **Analista de Datos** 
-* [Nombre Compañero] - [Matrícula] - **Capturista de Datos** 
+* América Michelle Vázquez Tamayo - 2191273 - **Capturista de Datos** 
 
 **API Elegida:** [The Cat API](https://developers.thecatapi.com/)
 
