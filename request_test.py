@@ -1,8 +1,10 @@
 import requests
 import json
 
+print("--- EL SCRIPT HA INICIADO ---")
+
 def generar_avance_0():
-   
+    
     url = "https://api.thecatapi.com/v1/breeds?limit=10"
     
     print("Iniciando conexión con The Cat API...")
