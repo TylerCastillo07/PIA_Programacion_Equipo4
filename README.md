@@ -1,7 +1,7 @@
 # PIA - Análisis Estadístico de Razas Felinas
 **Equipo 4 - Integrantes:**
 * Tyler Gabriel Castillo Lozano - 2163447 - **Programador**
-* [Nombre Compañero] - [Matrícula] - **Analista de Datos** 
+* Monserrat Cárdenas Rodiz - 2206788 - **Analista de Datos** 
 * América Michelle Vázquez Tamayo - 2191273 - **Capturista de Datos** 
 
 **API Elegida:** [The Cat API](https://developers.thecatapi.com/)
