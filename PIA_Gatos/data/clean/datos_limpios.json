@@ -1,0 +1,522 @@
+[
+    {
+        "id": "abys",
+        "raza": "Abyssinian",
+        "origen": "Egypt",
+        "inteligencia": 5,
+        "energia": 5,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "aege",
+        "raza": "Aegean",
+        "origen": "Greece",
+        "inteligencia": 3,
+        "energia": 3,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "abob",
+        "raza": "American bobtail",
+        "origen": "United States",
+        "inteligencia": 5,
+        "energia": 3,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "acur",
+        "raza": "American curl",
+        "origen": "United States",
+        "inteligencia": 3,
+        "energia": 3,
+        "peso_min_kg": 2
+    },
+    {
+        "id": "asho",
+        "raza": "American shorthair",
+        "origen": "United States",
+        "inteligencia": 3,
+        "energia": 3,
+        "peso_min_kg": 4
+    },
+    {
+        "id": "awir",
+        "raza": "American wirehair",
+        "origen": "United States",
+        "inteligencia": 3,
+        "energia": 3,
+        "peso_min_kg": 4
+    },
+    {
+        "id": "amau",
+        "raza": "Arabian mau",
+        "origen": "United Arab Emirates",
+        "inteligencia": 3,
+        "energia": 4,
+        "peso_min_kg": 4
+    },
+    {
+        "id": "amis",
+        "raza": "Australian mist",
+        "origen": "Australia",
+        "inteligencia": 4,
+        "energia": 4,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "bali",
+        "raza": "Balinese",
+        "origen": "United States",
+        "inteligencia": 5,
+        "energia": 5,
+        "peso_min_kg": 2
+    },
+    {
+        "id": "bamb",
+        "raza": "Bambino",
+        "origen": "United States",
+        "inteligencia": 5,
+        "energia": 5,
+        "peso_min_kg": 2
+    },
+    {
+        "id": "beng",
+        "raza": "Bengal",
+        "origen": "United States",
+        "inteligencia": 5,
+        "energia": 5,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "birm",
+        "raza": "Birman",
+        "origen": "France",
+        "inteligencia": 3,
+        "energia": 3,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "bomb",
+        "raza": "Bombay",
+        "origen": "United States",
+        "inteligencia": 5,
+        "energia": 3,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "bslo",
+        "raza": "British longhair",
+        "origen": "United Kingdom",
+        "inteligencia": 5,
+        "energia": 4,
+        "peso_min_kg": 4
+    },
+    {
+        "id": "bsho",
+        "raza": "British shorthair",
+        "origen": "United Kingdom",
+        "inteligencia": 3,
+        "energia": 2,
+        "peso_min_kg": 5
+    },
+    {
+        "id": "bure",
+        "raza": "Burmese",
+        "origen": "Burma",
+        "inteligencia": 5,
+        "energia": 4,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "buri",
+        "raza": "Burmilla",
+        "origen": "United Kingdom",
+        "inteligencia": 3,
+        "energia": 3,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "cspa",
+        "raza": "California spangled",
+        "origen": "United States",
+        "inteligencia": 5,
+        "energia": 5,
+        "peso_min_kg": 5
+    },
+    {
+        "id": "char",
+        "raza": "Chartreux",
+        "origen": "France",
+        "inteligencia": 4,
+        "energia": 2,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "chau",
+        "raza": "Chausie",
+        "origen": "Egypt",
+        "inteligencia": 5,
+        "energia": 4,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "chee",
+        "raza": "Cheetoh",
+        "origen": "United States",
+        "inteligencia": 5,
+        "energia": 4,
+        "peso_min_kg": 4
+    },
+    {
+        "id": "csho",
+        "raza": "Colorpoint shorthair",
+        "origen": "United States",
+        "inteligencia": 5,
+        "energia": 4,
+        "peso_min_kg": 2
+    },
+    {
+        "id": "crex",
+        "raza": "Cornish rex",
+        "origen": "United Kingdom",
+        "inteligencia": 5,
+        "energia": 5,
+        "peso_min_kg": 2
+    },
+    {
+        "id": "cymr",
+        "raza": "Cymric",
+        "origen": "Canada",
+        "inteligencia": 5,
+        "energia": 5,
+        "peso_min_kg": 4
+    },
+    {
+        "id": "cypr",
+        "raza": "Cyprus",
+        "origen": "Cyprus",
+        "inteligencia": 3,
+        "energia": 4,
+        "peso_min_kg": 4
+    },
+    {
+        "id": "drex",
+        "raza": "Devon rex",
+        "origen": "United Kingdom",
+        "inteligencia": 5,
+        "energia": 5,
+        "peso_min_kg": 2
+    },
+    {
+        "id": "dons",
+        "raza": "Donskoy",
+        "origen": "Russia",
+        "inteligencia": 3,
+        "energia": 4,
+        "peso_min_kg": 5
+    },
+    {
+        "id": "lihu",
+        "raza": "Dragon li",
+        "origen": "China",
+        "inteligencia": 3,
+        "energia": 3,
+        "peso_min_kg": 4
+    },
+    {
+        "id": "emau",
+        "raza": "Egyptian mau",
+        "origen": "Egypt",
+        "inteligencia": 4,
+        "energia": 5,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "ebur",
+        "raza": "European burmese",
+        "origen": "Burma",
+        "inteligencia": 5,
+        "energia": 4,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "esho",
+        "raza": "Exotic shorthair",
+        "origen": "United States",
+        "inteligencia": 3,
+        "energia": 3,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "hbro",
+        "raza": "Havana brown",
+        "origen": "United Kingdom",
+        "inteligencia": 5,
+        "energia": 3,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "hima",
+        "raza": "Himalayan",
+        "origen": "United States",
+        "inteligencia": 3,
+        "energia": 1,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "jbob",
+        "raza": "Japanese bobtail",
+        "origen": "Japan",
+        "inteligencia": 5,
+        "energia": 5,
+        "peso_min_kg": 2
+    },
+    {
+        "id": "java",
+        "raza": "Javanese",
+        "origen": "United States",
+        "inteligencia": 5,
+        "energia": 5,
+        "peso_min_kg": 2
+    },
+    {
+        "id": "khao",
+        "raza": "Khao manee",
+        "origen": "Thailand",
+        "inteligencia": 4,
+        "energia": 3,
+        "peso_min_kg": 4
+    },
+    {
+        "id": "kora",
+        "raza": "Korat",
+        "origen": "Thailand",
+        "inteligencia": 5,
+        "energia": 3,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "kuri",
+        "raza": "Kurilian",
+        "origen": "Russia",
+        "inteligencia": 5,
+        "energia": 5,
+        "peso_min_kg": 4
+    },
+    {
+        "id": "lape",
+        "raza": "Laperm",
+        "origen": "Thailand",
+        "inteligencia": 5,
+        "energia": 4,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "mcoo",
+        "raza": "Maine coon",
+        "origen": "United States",
+        "inteligencia": 5,
+        "energia": 3,
+        "peso_min_kg": 5
+    },
+    {
+        "id": "mala",
+        "raza": "Malayan",
+        "origen": "United Kingdom",
+        "inteligencia": 3,
+        "energia": 5,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "manx",
+        "raza": "Manx",
+        "origen": "Isle of Man",
+        "inteligencia": 5,
+        "energia": 5,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "munc",
+        "raza": "Munchkin",
+        "origen": "United States",
+        "inteligencia": 5,
+        "energia": 4,
+        "peso_min_kg": 2
+    },
+    {
+        "id": "nebe",
+        "raza": "Nebelung",
+        "origen": "United States",
+        "inteligencia": 5,
+        "energia": 3,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "norw",
+        "raza": "Norwegian forest cat",
+        "origen": "Norway",
+        "inteligencia": 4,
+        "energia": 3,
+        "peso_min_kg": 4
+    },
+    {
+        "id": "ocic",
+        "raza": "Ocicat",
+        "origen": "United States",
+        "inteligencia": 5,
+        "energia": 5,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "orie",
+        "raza": "Oriental",
+        "origen": "United States",
+        "inteligencia": 5,
+        "energia": 5,
+        "peso_min_kg": 2
+    },
+    {
+        "id": "pers",
+        "raza": "Persian",
+        "origen": "Iran (Persia)",
+        "inteligencia": 3,
+        "energia": 1,
+        "peso_min_kg": 4
+    },
+    {
+        "id": "raga",
+        "raza": "Ragamuffin",
+        "origen": "United States",
+        "inteligencia": 5,
+        "energia": 3,
+        "peso_min_kg": 4
+    },
+    {
+        "id": "ragd",
+        "raza": "Ragdoll",
+        "origen": "United States",
+        "inteligencia": 3,
+        "energia": 3,
+        "peso_min_kg": 5
+    },
+    {
+        "id": "rblu",
+        "raza": "Russian blue",
+        "origen": "Russia",
+        "inteligencia": 3,
+        "energia": 3,
+        "peso_min_kg": 2
+    },
+    {
+        "id": "sava",
+        "raza": "Savannah",
+        "origen": "United States",
+        "inteligencia": 5,
+        "energia": 5,
+        "peso_min_kg": 4
+    },
+    {
+        "id": "sfol",
+        "raza": "Scottish fold",
+        "origen": "United Kingdom",
+        "inteligencia": 3,
+        "energia": 3,
+        "peso_min_kg": 2
+    },
+    {
+        "id": "srex",
+        "raza": "Selkirk rex",
+        "origen": "United States",
+        "inteligencia": 3,
+        "energia": 3,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "siam",
+        "raza": "Siamese",
+        "origen": "Thailand",
+        "inteligencia": 5,
+        "energia": 5,
+        "peso_min_kg": 4
+    },
+    {
+        "id": "sibe",
+        "raza": "Siberian",
+        "origen": "Russia",
+        "inteligencia": 5,
+        "energia": 5,
+        "peso_min_kg": 4
+    },
+    {
+        "id": "sing",
+        "raza": "Singapura",
+        "origen": "Singapore",
+        "inteligencia": 5,
+        "energia": 5,
+        "peso_min_kg": 2
+    },
+    {
+        "id": "snow",
+        "raza": "Snowshoe",
+        "origen": "United States",
+        "inteligencia": 5,
+        "energia": 4,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "soma",
+        "raza": "Somali",
+        "origen": "Somalia",
+        "inteligencia": 5,
+        "energia": 5,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "sphy",
+        "raza": "Sphynx",
+        "origen": "Canada",
+        "inteligencia": 5,
+        "energia": 3,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "tonk",
+        "raza": "Tonkinese",
+        "origen": "Canada",
+        "inteligencia": 5,
+        "energia": 5,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "toyg",
+        "raza": "Toyger",
+        "origen": "United States",
+        "inteligencia": 5,
+        "energia": 5,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "tang",
+        "raza": "Turkish angora",
+        "origen": "Turkey",
+        "inteligencia": 5,
+        "energia": 5,
+        "peso_min_kg": 2
+    },
+    {
+        "id": "tvan",
+        "raza": "Turkish van",
+        "origen": "Turkey",
+        "inteligencia": 5,
+        "energia": 5,
+        "peso_min_kg": 3
+    },
+    {
+        "id": "ycho",
+        "raza": "York chocolate",
+        "origen": "United States",
+        "inteligencia": 5,
+        "energia": 5,
+        "peso_min_kg": 5
+    }
+]
