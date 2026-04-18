@@ -10,3 +10,5 @@ Elegimos esta API porque ofrece datos anidados detallados sobre más de 60 razas
 
 *Pregunta de investigación:*
 ¿Existe una correlación estadística significativa entre el nivel de inteligencia de una raza de gato y su nivel de necesidades sociales o adaptabilidad?
+
+Este proyecto es el **Script 1 FINAL** de nuestro PIA. Se conecta a una API externa de gatos, extrae la información de las razas, realiza una validación exhaustiva mediante expresiones regulares (Regex) y limpia los datos para generar un archivo JSON estructurado y listo para su análisis.
