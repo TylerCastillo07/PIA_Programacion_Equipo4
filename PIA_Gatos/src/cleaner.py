@@ -1,21 +1,26 @@
 import re
 
-def limpiar_datos(data):
-    # Manejo de nulos: si no existe el campo, ponemos un valor por defecto
-    nombre = data.get("name", "Desconocido").capitalize()
-    
-    # Aplanamiento y extracción de peso
-    peso_raw = data.get("weight", {}).get("metric", "0")
-    numeros = re.findall(r"\d+", peso_raw)
-    peso_min = int(numeros[0]) if numeros else 0
+def limpiar_datos(gato):
+    try:
+        
+        peso_crudo = gato.get("weight", {}).get("metric", "0")
+        numeros = re.findall(r'\d+', peso_crudo)
+        
+        try:
+            peso_kg = int(numeros[0]) if numeros else 0
+        except (ValueError, IndexError):
+            peso_kg = 0
 
-    
-    return {
-        "id": data.get("id", "n/a"),
-        "raza": nombre,
-        "origen": data.get("origin", "Desconocido"),
-        "inteligencia": int(data.get("intelligence", 0)),
-        "energia": int(data.get("energy_level", 0)),
-        "peso_min_kg": peso_min
-    }
+        
+        datos_limpios = {
+            "id": gato.get("id", "N/A"),
+            "nombre": gato.get("name", "Sin nombre").strip().capitalize(),
+            "inteligencia": int(gato.get("intelligence", 0)),
+            "peso_kg": peso_kg,
+            "origen": gato.get("origin", "Desconocido")
+        }
+        return datos_limpios
+    except Exception as e:
+        print(f"Error procesando el gato {gato.get('name')}: {e}")
+        return None
 
