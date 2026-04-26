@@ -19,6 +19,7 @@ El proyecto sigue una arquitectura modular para asegurar la limpieza y mantenimi
 * `src/cleaner.py`: Realiza la limpieza profunda, aplanamiento y normalización.
 * `src/validators.py`: Contiene los patrones de Regex para validar IDs, nombres y niveles.
 * `src/utils.py`: Funciones auxiliares para la interfaz de usuario.
+* `src/script1.py`: Orquestador 
 * `data/raw/`: Almacena el JSON original tal cual llega de la API.
 * `data/clean/`: Almacena el resultado final procesado.
 
@@ -28,3 +29,7 @@ Para correr este proyecto en tu computadora local, sigue estos pasos:
 1. **Clonar el repositorio:**
    ```bash
    git clone [https://github.com/TylerCastillo07/PIA_Programacion_Equipo4.git](https://github.com/TylerCastillo07/PIA_Programacion_Equipo4.git)
+2. **Instalar dependencias:**
+   Este proyecto utiliza la librería `requests` para la comunicación con la API.
+   ```bash
+   pip install requests
