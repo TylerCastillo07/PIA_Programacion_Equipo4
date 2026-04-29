@@ -7,11 +7,17 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from src.analysis import calcular_media, calcular_mediana, calcular_rango
 from src.utils import imprimir_banner
+from src.visualizations import (
+    graficar_histograma_inteligencia,
+    graficar_barras_energia,
+    graficar_dispersion_peso_inteligencia,
+    graficar_pastel_adaptabilidad
+)
 
 def ejecutar_analisis():
     imprimir_banner("ANÁLISIS ESTADÍSTICO - EQUIPO 4")
     
-    a
+    
     base_path = os.path.dirname(os.path.abspath(__file__))
     ruta_json = os.path.join(base_path, "data", "clean", "datos_limpios.json")
     
