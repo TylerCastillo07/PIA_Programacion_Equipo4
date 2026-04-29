@@ -35,6 +35,7 @@ def ejecutar_analisis():
         print(f"\n[INFO] Se cargaron {len(datos)} registros de 'datos_limpios.json'")
         
         print("\n--- ESTADÍSTICAS DE INTELIGENCIA ---")
+        print("\n" + "="*40)
         print(" ESTADÍSTICAS DE INTELIGENCIA".center(40))
         print("="*40)
         print(f"Media:    {calcular_media(inteligencias):.2f}")
@@ -47,6 +48,16 @@ def ejecutar_analisis():
         print(f"Media:    {calcular_media(pesos):.2f}")
         print(f"Mediana:  {calcular_mediana(pesos)}")
         print(f"Rango:    {calcular_rango(pesos)}")
+
+
+        print("\n--- GENERANDO GRÁFICAS EN CARPETA 'figures/' ---")
+        
+        graficar_histograma_inteligencia(inteligencias)
+        graficar_barras_energia(nombres, energias)
+        graficar_dispersion_peso_inteligencia(pesos, inteligencias)
+        graficar_pastel_adaptabilidad(adaptabilidad)
+        
+        print("\n[ÉXITO] Cálculos completados y gráficas actualizadas.")
 
     except FileNotFoundError:
         print(f"\n[ERROR] No se encontró el archivo en: {ruta_json}")
