@@ -14,8 +14,10 @@ def limpiar_datos(gato):
         
         datos_limpios = {
             "id": gato.get("id", "N/A"),
-            "nombre": gato.get("name", "Sin nombre").strip().capitalize(),
+            "nombre": gato.get("name", "Sin nombre").strip(),
             "inteligencia": int(gato.get("intelligence", 0)),
+            "nivel_energia": int(gato.get("energy_level", 0)),
+            "adaptabilidad": int(gato.get("adaptability", 0)),
             "peso_kg": peso_kg,
             "origen": gato.get("origin", "Desconocido")
         }
