@@ -32,32 +32,30 @@ def ejecutar_analisis():
         pesos = [g.get("peso_kg", 0) for g in datos]
         adaptabilidad = [g.get("adaptabilidad") or g.get("social_needs", 3) for g in datos]
 
-        print(f"\n[INFO] Se cargaron {len(datos)} registros de 'datos_limpios.json'")
+        resultados = {
+            "inteligencia": {
+                "media": calcular_media(inteligencias),
+                "mediana": calcular_mediana(inteligencias),
+                "moda": calcular_moda(inteligencias),
+                "rango": calcular_rango(inteligencias),
+                "tabla_frecuencia": generar_tabla_frecuencia(inteligencias)
+            }
+        }
+
         
-        print("\n--- ESTADÍSTICAS DE INTELIGENCIA ---")
-        print("\n" + "="*40)
-        print(" ESTADÍSTICAS DE INTELIGENCIA".center(40))
-        print("="*40)
-        print(f"Media:    {calcular_media(inteligencias):.2f}")
-        print(f"Mediana:  {calcular_mediana(inteligencias)}")
-        print(f"Rango:    {calcular_rango(inteligencias)}")
-
-        print("\n" + "="*40)
-        print(" ESTADÍSTICAS DE PESO (KG)".center(40))
-        print("="*40)
-        print(f"Media:    {calcular_media(pesos):.2f}")
-        print(f"Mediana:  {calcular_mediana(pesos)}")
-        print(f"Rango:    {calcular_rango(pesos)}")
+        
+        
 
 
-        print("\n--- GENERANDO GRÁFICAS EN CARPETA 'figures/' ---")
+        # Gráficas
+        print("\n--- ACTUALIZANDO VISUALIZACIONES ---")
         
         graficar_histograma_inteligencia(inteligencias)
         graficar_barras_energia(nombres, energias)
         graficar_dispersion_peso_inteligencia(pesos, inteligencias)
         graficar_pastel_adaptabilidad(adaptabilidad)
         
-        print("\n[ÉXITO] Cálculos completados y gráficas actualizadas.")
+        print("\n[ÉXITO] Proceso completado sin errores.")
 
     except FileNotFoundError:
         print(f"\n[ERROR] No se encontró el archivo en: {ruta_json}")
