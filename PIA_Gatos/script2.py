@@ -39,6 +39,27 @@ def ejecutar_analisis():
                 "moda": calcular_moda(inteligencias),
                 "rango": calcular_rango(inteligencias),
                 "tabla_frecuencia": generar_tabla_frecuencia(inteligencias)
+            },
+            "peso_kg": {
+                "media": calcular_media(pesos),
+                "mediana": calcular_mediana(pesos),
+                "moda": calcular_moda(pesos),
+                "rango": calcular_rango(pesos),
+                "tabla_frecuencia": generar_tabla_frecuencia(pesos)
+            },
+            "nivel_energia": {
+                "media": calcular_media(energias),
+                "mediana": calcular_mediana(energias),
+                "moda": calcular_moda(energias),
+                "rango": calcular_rango(energias),
+                "tabla_frecuencia": generar_tabla_frecuencia(energias)
+            },
+            "adaptabilidad": {
+                "media": calcular_media(adaptabilidades),
+                "mediana": calcular_mediana(adaptabilidades),
+                "moda": calcular_moda(adaptabilidades),
+                "rango": calcular_rango(adaptabilidades),
+                "tabla_frecuencia": generar_tabla_frecuencia(adaptabilidades)
             }
         }
         
