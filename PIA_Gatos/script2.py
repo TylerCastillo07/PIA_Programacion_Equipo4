@@ -41,11 +41,14 @@ def ejecutar_analisis():
                 "tabla_frecuencia": generar_tabla_frecuencia(inteligencias)
             }
         }
+        
+        os.makedirs("results", exist_ok=True)
+        ruta_stats = os.path.join("results", "statistics.json")
+        with open(ruta_stats, "w", encoding='utf-8') as f_res:
+            json.dump(resultados, f_res, indent=4, ensure_ascii=False)
 
-        
-        
-        
-
+        print(f"\n[INFO] Reporte generado en: {ruta_stats}")
+        print(f"Moda detectada: {resultados['inteligencia']['moda']}")
 
         # Gráficas
         print("\n--- ACTUALIZANDO VISUALIZACIONES ---")
