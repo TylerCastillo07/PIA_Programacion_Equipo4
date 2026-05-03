@@ -1,4 +1,5 @@
 import statistics as stats
+from collections import Counter
 
 def calcular_media(lista):
     """Calcula el promedio aritmético atrapando errores de lista vacía."""
