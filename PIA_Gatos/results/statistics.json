@@ -1,0 +1,13 @@
+{
+    "inteligencia": {
+        "media": 4.358208955223881,
+        "mediana": 5,
+        "moda": 5,
+        "rango": 2,
+        "tabla_frecuencia": {
+            "5": 43,
+            "3": 19,
+            "4": 5
+        }
+    }
+}
