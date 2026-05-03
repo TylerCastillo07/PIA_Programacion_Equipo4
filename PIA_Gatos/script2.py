@@ -26,11 +26,11 @@ def ejecutar_analisis():
             datos = json.load(f)
             
         
-        nombres = [g.get("nombre") or g.get("name", "N/A") for g in datos]
-        inteligencias = [g.get("inteligencia") or g.get("intelligence", 0) for g in datos]
-        energias = [g.get("nivel_energia") or g.get("energy_level", 0) for g in datos]
+        nombres = [g.get("nombre", "N/A") for g in datos]
+        inteligencias = [g.get("inteligencia", 0) for g in datos]
+        energias = [g.get("nivel_energia", 0) for g in datos]
         pesos = [g.get("peso_kg", 0) for g in datos]
-        adaptabilidad = [g.get("adaptabilidad") or g.get("social_needs", 3) for g in datos]
+        adaptabilidad = [g.get("adaptabilidad", 0) for g in datos]
 
         resultados = {
             "inteligencia": {
