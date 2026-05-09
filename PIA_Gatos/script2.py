@@ -71,6 +71,11 @@ def ejecutar_analisis():
         print(f"\n[INFO] Reporte generado en: {ruta_stats}")
         print(f"Moda detectada: {resultados['inteligencia']['moda']}")
 
+        ruta_excel = os.path.join(base_path, "results", "excel", "Analisis_Felino_Equipo4.xlsx")
+        print("--- GENERANDO ARCHIVO EXCEL ---")
+        if generar_excel(datos, resultados, ruta_excel):
+            print(f"[ÉXITO] Archivo Excel creado en: {ruta_excel}")
+            
         # Gráficas
         print("\n--- ACTUALIZANDO VISUALIZACIONES ---")
         
