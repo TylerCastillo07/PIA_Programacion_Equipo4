@@ -22,13 +22,19 @@ El proyecto sigue una arquitectura modular para asegurar la limpieza y mantenimi
 * `src/validators.py`: Contiene los patrones de Regex para validar IDs, nombres y niveles.
 * `src/utils.py`: Funciones auxiliares para la interfaz de usuario.
 * `src/script1.py`: Orquestador
-* `script2.py`: Orquestador del análisis estadístico y generación de gráficas.
-* `src/analysis.py`: Módulo matemático que calcula media, mediana, moda, rango y tablas de frecuencia.
+* `script2.py`: Orquestador del análisis estadístico y generación de gráficas, reportes Excel.
+* `src/analysis.py`: Módulo que calcula media, mediana, moda, rango y tablas de frecuencia (usando Counter).
 * `src/visualizations.py`: Genera las 4 gráficas requeridas (Histograma, Barras, Dispersión y Pastel)
 * `src/results/`: Almacena el archivo statistics.json con los cálculos finales.
+* `src/datasheet.py`: Generador del reporte en Excel con múltiples hojas (Datos, Estadísticas y Frecuencias).
 * `data/raw/`: Almacena el JSON original tal cual llega de la API.
 * `data/clean/`: Almacena el resultado final procesado.
 * `data/figures/`: Almacena las gráficas generadas en formato PNG.
+
+Archivod Generados:
+* Reporte JSON (results/statistics.json): Resumen digital de todos los cálculos.
+* Reporte Excel (results/excel/Analisis_Felino_Equipo4.xlsx): Reporte tabular profesional con múltiples hojas.
+* Visualizaciones (results/plots/): Gráficas en formato PNG con títulos y leyendas claras
 
 ## Cómo ejecutar el script
 Para correr este proyecto en tu computadora local, sigue estos pasos:
@@ -41,3 +47,4 @@ Para correr este proyecto en tu computadora local, sigue estos pasos:
    ```bash
    pip install requests
    pip install requests matplotlib
+   pip install pandas openpyxl
