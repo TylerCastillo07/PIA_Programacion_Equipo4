@@ -3,7 +3,6 @@ import os
 
 def configurar_carpeta_plots():
     """Crea la carpeta específica solicitada por la rúbrica."""
-    # Cambiado de 'figures' a 'results/plots' según la checklist
     ruta = os.path.join("results", "plots")
     if not os.path.exists(ruta):
         os.makedirs(ruta)
