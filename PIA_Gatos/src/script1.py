@@ -62,7 +62,7 @@ def integrar_flujo_script1():
         else:
             registros_saltados += 1
 
-    # DEBUG: Para confirmar en consola antes de guardar
+    
     print(f"DEBUG: Cantidad de registros que pasaron los filtros: {len(gatos_limpios)}")
 
     # 5. Guardado de Datos Limpios Finales (Escritura Segura)
@@ -70,7 +70,6 @@ def integrar_flujo_script1():
         try:
             with open(ruta_clean, "w", encoding='utf-8') as f_clean:
                 json.dump(gatos_limpios, f_clean, indent=4, ensure_ascii=False)
-                # Forzamos la escritura física al disco
                 f_clean.flush()
                 os.fsync(f_clean.fileno())
             
