@@ -48,3 +48,7 @@ Para correr este proyecto en tu computadora local, sigue estos pasos:
    pip install requests
    pip install requests matplotlib
    pip install pandas openpyxl
+
+3.**LINK DEL VIDEO DE YOUTUBE**
+ https://www.youtube.com/watch?v=DPUXWV-Bd08
+ 
